@@ -293,6 +293,21 @@
     margin-bottom: 2rem;
 }
 
+.contents-services{
+    background-image: url("../assets/BACKGROUND-SERVICES.png");
+    background-repeat: no-repeat;
+    background-position: 140%;
+    background-size: 145%;
+
+}
+
+.contents-benefits{
+    background-image: url("../assets/BACKGROUND-BENEFITS.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
 /*
 <svg width=”400″ height=”110″ class="rectangle">
 
