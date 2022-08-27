@@ -352,7 +352,11 @@ body{
         border-radius: 2rem;
         width: 100%;
     }
+
+
 }
+
+
 .background-medium{
     background-color: white;
 }
@@ -441,7 +445,7 @@ body{
 .text-choose{
     background-color: rgba(255,200,0,0.4);
     border-radius: 2rem;
-    width: 9.125rem ;
+    width: 60% ;
     height: 32.5rem;
     margin-top: -2rem;
 }
