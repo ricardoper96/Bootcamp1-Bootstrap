@@ -109,8 +109,14 @@ body{
     top: 40%;
     left: 20%;
 }
+.app-font {
+    width: 34.8125rem;
+    height: 9.5rem;
+    margin-left: 9.4375rem;
+}
 .app-main {
     font-weight: bold;
+    font-size: 3rem;
 }
 .aside-hero {
     position: absolute;
@@ -472,14 +478,11 @@ body{
 }
 .section-hero {
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 35%;
+    left: 15%;
     font-family: 'Playfair Display', Serif ;
 }
-.app-main {
-    font-size: 4rem;
 
-}
 .font{
     font-family: 'Playfair Display', Serif;
 }
