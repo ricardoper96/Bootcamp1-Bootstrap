@@ -1,3 +1,8 @@
+body{
+    scroll-behavior: smooth;
+    overflow-x: unset;
+}
+
 .navbar-section{
     width: 100%;
 }
@@ -33,6 +38,13 @@
 
 }
 
+.app-link-footer{
+    display: flex;
+    flex-direction: row;
+}
+.app-link-footer > span{
+   font-size: 0.9em;
+}
 
 .video-hero{
     object-fit: cover;
@@ -66,11 +78,9 @@
 
 }
 .app-about{
-    display: inline-block;
-    font-size: 3rem;
-    padding-bottom: 1rem;
-    color: #755705;
-    padding-left: 5rem;
+    display: block;
+    font-size: 1.7rem;
+    color: #836408;
 }
 .medium-img{
     border-radius: 10px;
@@ -135,15 +145,21 @@
     padding: 1rem;
 }
 .img-benefits {
-    background-color: #c69500;
-    width: 10rem;
-    border-radius: 2rem;
-    padding: 2.5rem;
+    width: 2rem;
+    filter: brightness(0) invert(1);
 
+
+
+}
+.container-benefits{
+    border-radius: 0.6rem;
+    padding: 1rem;
+    background-color: #c69500;
 }
 .btn-choose{
     display: inline-block;
     color: #755705;
+    width: 50%;
     background-color: rgb(255,251,237);
     border: none;
     border-radius: 10px;
@@ -155,7 +171,9 @@
 
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgb(4,47, 100, 0.4);
-    border-radius: 4rem;
+    border-radius: 2rem;
+
+
     margin-top: 4rem;
     width: 90%;
     height: 28.3125rem;
@@ -217,6 +235,7 @@
     padding: 3rem;
     text-align: center;
     background: url("../assets/SILUETA2.png") 90% no-repeat, url("../assets/SILUETA.png") 10% no-repeat;
+
 }
 
 .contents-services{
@@ -224,6 +243,12 @@
     background-repeat: no-repeat;
     background-position: 140%;
     background-size: 150%;
+}
+.background-img{
+    position: absolute;
+    opacity: 0.2;
+    left: -13%;
+    width: 60%;
 }
 
 .button-orange{
@@ -254,9 +279,10 @@
     border-color: #c76102 ;
 }
 .contain-about{
-    background-image: linear-gradient(105deg, rgb(116,114,108) 25%, rgb(197,186,172) 130%);
+    background-image: linear-gradient(105deg, rgb(68, 68, 68) 25%, rgb(100, 100, 100) 130%);
 
     padding: 5rem;
+
 }
 
 .contain-footer{
@@ -265,7 +291,6 @@
     border-top-left-radius: 10% 30%;
     margin-top: 0.5rem;
     padding: 4rem;
-    padding-bottom: 0;
 }
 .item-footer{
     color: white;
@@ -309,3 +334,26 @@
         <rect/>
     </svg>
  */
+
+
+.content-service{
+
+    padding: 0 4rem
+}
+.number_legal{
+    background-color: #755705;
+    color:white;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+
+}
+
+.background-carousel{
+    background: linear-gradient(#38393a, #4e555b, #696e73);
+    width: 20%;
+    position: absolute;
+    left: 77%;
+    height: 91%;
+    border-radius: 0 0 1rem 1rem;
+
+}
