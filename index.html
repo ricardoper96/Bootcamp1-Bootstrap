@@ -86,7 +86,7 @@
     </div>
   </div>
     <div class="row ">
-        <nav class="navbar navbar-expand-lg navbar-main header-nav " >
+        <nav class="navbar navbar-expand-lg navbar-main header-nav "  id="navbar-main">
             <a class="navbar-brand" href="#">
                 <img class= "app-img" src="./assets/LOGO.png" class="img-thumbnail" >
             </a>
@@ -471,7 +471,24 @@
 
 
     })
+
+
+
+
+    $(window).on("scroll", function () {
+
+        if ($(window).scrollTop() > $("header").offset().top - 50) {
+            $("#navbar-main").addClass("background-header");
+        }
+
+        if ($(window).scrollTop() == 0){
+            $("#navbar-main").removeClass("background-header");
+
+        }
+
+
+    });
 </script>
+
 </body>
->>>>>>> 49d4fea95d36d7e656280640ab1a56ce3b3b5faa
 </html>
