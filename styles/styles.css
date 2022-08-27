@@ -95,7 +95,7 @@ body{
     position: absolute;
     width: 27.75rem;
     height: 21.125rem;
-    left: 50%;
+    left: 42%;
     border: 2px solid #c76102;
     border-radius: 10px;
     padding-top: 18rem;
@@ -222,6 +222,8 @@ body{
     background-color: #c69500;
     font-size: 1.8rem;
     padding-top: 0rem;
+    right: 30%;
+
 }
 .input-subscribe{
     display:inline-block;
@@ -252,7 +254,7 @@ body{
     padding: 4rem;
 }
 .item-footer{
-    color: white;
+    color: #c5ae01;
     transition: filter linear 100ms;
     filter:  brightness(0) invert(1);
 }
@@ -473,10 +475,12 @@ body{
     margin-top: 0.5rem;
     padding: 4rem;
 }
-.item-footer{
-    color: white;
-    transition: filter linear 100ms;
-    filter:  brightness(0) invert(1);
+.icon-footer {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
 }
 .title-footer{
     color: rgb(242,197,82);
