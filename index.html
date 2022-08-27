@@ -88,7 +88,7 @@
     <div class="row ">
         <nav class="navbar navbar-expand-lg navbar-main header-nav "  id="navbar-main">
             <a class="navbar-brand" href="#">
-                <img class= "app-img" src="./assets/LOGO.png" class="img-thumbnail" >
+                <img class= "app-img" src="./assets/LOGO.png"  id="img-header-id" class="img-thumbnail" >
             </a>
 
 
@@ -479,10 +479,13 @@
 
         if ($(window).scrollTop() > $("header").offset().top - 50) {
             $("#navbar-main").addClass("background-header");
+            $('#img-header-id').addClass('img-header');
         }
 
         if ($(window).scrollTop() == 0){
             $("#navbar-main").removeClass("background-header");
+            $('#img-header-id').removeClass('img-header');
+
 
         }
 

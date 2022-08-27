@@ -92,6 +92,9 @@ body{
     filter: sepia(0.9);
 
 }
+.img-header{
+    filter: brightness(0) invert(1);
+}
 
 .item {
     color: white;
