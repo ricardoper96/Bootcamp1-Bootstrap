@@ -160,13 +160,17 @@ body{
     background-color: #c69500;
 }
 .btn-choose{
-    display: inline-block;
-    color: #755705;
-    width: 50%;
-    background-color: rgb(255,251,237);
-    border: none;
+    width: 8em;
     border-radius: 10px;
-    box-shadow: 0 9px rgb(100,97,89);
+    font-size: 1.2rem;
+    padding-top: 0.2rem;
+}
+
+.btn-about{
+    width: 8em;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding-top: 0.2rem;
 }
 .contain-choose{
 
@@ -256,7 +260,8 @@ body{
 .button-orange{
     color: #755705;
     background-color: #c69500;
-    box-shadow: 0 9px rgb(100,97,89);
+    font-size: 1.8rem;
+    padding-top: 0rem;
 
 }
 .input-subscribe{
@@ -773,7 +778,7 @@ body {
 }
 .btn-3d.btn-default {
     background-color: #f9f9f9;
-    color: #666;
+    color: #a8752f;
     box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.1) inset, 0 6px 0 0 #BEBEBE, 0 6px 1px 1px rgba(0, 0, 0, 0.3), 0 8px 8px 1px rgba(0, 0, 0, 0.2);
     text-shadow: 0 -1px 1px #BEBEBE;
 }
@@ -820,16 +825,16 @@ body {
     box-shadow: 0 0 0 1px #39b3d7 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 1px 1px 0px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
 .btn-3d.btn-warning {
-    background-color: #f0ad4e;
+    background-color: #d9a74d;
     color: #fff;
-    box-shadow: 0 0 0 1px #ed9c28 inset, 0 0 0 2px rgba(255, 255, 255, 0.1) inset, 0 6px 0 0 #ec971f, 0 6px 1px 1px rgba(0, 0, 0, 0.3), 0 8px 8px 1px rgba(0, 0, 0, 0.2);
-    text-shadow: 0 -1px 1px #ec971f;
+    box-shadow: 0 0 0 1px #d9a74d inset, 0 0 0 2px rgba(255, 255, 255, 0.1) inset, 0 6px 0 0 #9f793e, 0 6px 1px 1px rgba(0, 0, 0, 0.3), 0 8px 8px 1px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 -1px 1px #c28d42;
 }
 .btn-3d.btn-warning:active,
 .btn-3d.btn-warning.active {
-    background-color: #f0ad4e;
+    background-color: #daa457;
     color: #fff;
-    box-shadow: 0 0 0 1px #ed9c28 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 1px 1px 0px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 1px #e5a344 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 1px 1px 0px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
 .btn-3d.btn-danger {
     background-color: #d9534f;
@@ -856,4 +861,10 @@ body {
     box-shadow: 0 0 0 1px #6c6c6c inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 1px 1px 0px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
+.button-subscribe{
+    width: 20%;
+    padding-top: 0.2rem;
 
+    font-size: 1.2rem;
+
+}
