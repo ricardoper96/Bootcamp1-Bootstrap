@@ -89,7 +89,7 @@ body{
     width: 100%;
 }
 .item:hover{
-    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+    filter: sepia(0.9);
 
 }
 
@@ -742,4 +742,8 @@ body{
     height: 59%;
     border-radius: 0 0 1rem 1rem;
 
+}
+
+.nav-link:hover{
+    color: #c69500;
 }
