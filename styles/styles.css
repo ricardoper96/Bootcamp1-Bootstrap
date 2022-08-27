@@ -12,8 +12,6 @@ body{
     background-color: #c5ae01;
     height: 2.5625rem;
 }
-
-
 .header-fixed{
     position: fixed;
     top:0;
@@ -22,10 +20,7 @@ body{
     height: 2.5625rem;
 }
 .navbar-main{
-
-
     width: 100%;
-
 }
 .app-img{
     height: 3em;
@@ -37,7 +32,6 @@ body{
     color: white;
     font-weight: 600;
     font-size: 20px;
-
 }
 
 .app-link-footer{
@@ -52,19 +46,13 @@ body{
     object-fit: cover;
     height: 45rem;
     width: 100%;
-
-
     position: absolute;
     top: 0;
     left: 0;
     filter: brightness(.4);
 }
-
-
 .background-medium{
-
     background-color: white;
-
 }
 .app-about{
     display: block;
@@ -79,19 +67,17 @@ body{
 }
 .item:hover{
     filter: sepia(0.9);
-
 }
 .img-header{
     filter: brightness(0) invert(1);
 }
-
 .item {
     color: white;
     transition: filter linear 100ms;
     filter:  brightness(0) invert(1);
 }
 .container-hero {
-    padding-top: 5rem;
+    padding: 50px 0px;
 }
 .section-hero {
     position: absolute;
@@ -128,17 +114,14 @@ body{
     height: 17px;
     left: 0px;
     top: 55%;
-
     background: linear-gradient(90deg, #CD9B28 -1.95%, rgba(205, 155, 40, 0) 108.75%);
 }
 .img-service{
     height: 30rem !important;
     border-radius: 2rem;
-
 }
 .app-medium{
     padding-top: 30rem;
-
 }
 .app-carrers{
     padding: 1rem;
@@ -146,9 +129,6 @@ body{
 .img-benefits {
     width: 2rem;
     filter: brightness(0) invert(1);
-
-
-
 }
 .container-benefits{
     border-radius: 0.6rem;
@@ -161,7 +141,6 @@ body{
     font-size: 1.2rem;
     padding-top: 0.2rem;
 }
-
 .btn-about{
     width: 8em;
     border-radius: 10px;
@@ -169,19 +148,13 @@ body{
     padding-top: 0.2rem;
 }
 .contain-choose{
-
     background-image: url("../assets/ABOUT.jpg");
-
     background-size: auto auto;
     box-shadow: inset 0 0 0 1000px rgb(4,47, 100, 0.4);
     border-radius: 2rem;
-
-
     margin-top: 4rem;
     width: 90%;
     height: 28.3125rem;
-
-
 }
 .text-choose{
     background-color: rgba(255,200,0,0.4);
@@ -214,20 +187,16 @@ body{
     right: 0;
     left: 0;
     border-radius: 4rem;
-
     background: linear-gradient(90.04deg, #504F4F 0.03%, rgba(103, 103, 103, 0.67) 99.96%);
 }
 .item-carousel{
     padding-top: 4rem;
-
 }
 .text-body{
     padding-top: 4rem;
     color: rgba(0, 0, 0, 0.58);
     margin-left: 2rem;
 }
-
-
 .app-subscribe{
     position: center;
     font-size: 3rem;
@@ -238,9 +207,7 @@ body{
     padding: 3rem;
     text-align: center;
     background: url("../assets/SILUETA2.png") 90% no-repeat, url("../assets/SILUETA.png") 10% no-repeat;
-
 }
-
 .contents-services{
     background-image: url("../assets/BACKGROUND SERVICES.jpg");
     background-repeat: no-repeat;
@@ -280,11 +247,8 @@ body{
 }
 .contain-about{
     background-image: linear-gradient(105deg, rgb(68, 68, 68) 25%, rgb(100, 100, 100) 130%);
-
     padding: 5rem;
-
 }
-
 .contain-footer{
     background-image: linear-gradient(105deg, rgb(32,33,39) 25%, rgb(197,186,172) 130%);
     border-top-right-radius: 10% 30%;
@@ -302,11 +266,8 @@ body{
 }
 .img-footer {
     width: 100%;
-    height:10rem;
-
-
+    height: 10rem;
 }
-
 .app-footer{
     background-color: #c69500;
     border-radius: 7px;
@@ -315,30 +276,14 @@ body{
     padding-right: 0.5rem;
     padding-bottom: 0.2rem;
 }
-
 .contain-footer-last{
     background-color: black;
 }
-
 .video-item {
     position: center;
     margin-bottom: 2rem;
 }
-
-
-/*
-<svg width=”400″ height=”110″ class="rectangle">
-
-        <rect width=”500″ height=”200″  />
-    </svg>
-    <svg  class="rectangle2">
-        <rect/>
-    </svg>
- */
-
-
 .content-service{
-
     padding: 0 4rem
 }
 .number_legal{
@@ -346,9 +291,7 @@ body{
     color:white;
     padding: 0.8rem;
     border-radius: 0.5rem;
-
 }
-
 .background-carousel{
     background: linear-gradient(#38393a, #4e555b, #696e73);
     width: 20%;
@@ -356,17 +299,11 @@ body{
     left: 77%;
     height: 91%;
     border-radius: 0 0 1rem 1rem;
-
 }
-
-
-
 .app-navbar-info{
     background-color: #c5ae01;
     height: 2.5625rem;
 }
-
-
 .header-fixed{
     position: fixed;
     top:0;
@@ -375,14 +312,10 @@ body{
     height: 2.5625rem;
 }
 .navbar-main{
-
-
     width: 100%;
-
 }
 .background-header{
     background-color:   rgba(198,149,0,0.4);
-
 }
 .app-img{
     height: 3em;
@@ -394,9 +327,7 @@ body{
     color: white;
     font-weight: 600;
     font-size: 20px;
-
 }
-
 .app-link-footer{
     display: flex;
     flex-direction: row;
@@ -404,36 +335,32 @@ body{
 .app-link-footer > span{
    font-size: 0.9em;
 }
-
 .video-hero{
     object-fit: cover;
     height: 45rem;
     width: 100%;
-
-
     position: absolute;
     top: 0;
     left: 0;
     filter: brightness(.4);
 }
-
 @media (max-width: 600px){
-
    .background-carousel{
        display: none;
    }
-
     .text-choose{
         position: absolute;
         background-color: rgba(173, 156, 95, 0.4);
         border-radius: 2rem;
         width: 100%;
     }
+
+
 }
+
+
 .background-medium{
-
     background-color: white;
-
 }
 .app-about{
     display: block;
@@ -448,16 +375,11 @@ body{
 }
 .item:hover{
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
-
 }
-
 .item {
     color: white;
     transition: filter linear 100ms;
     filter:  brightness(0) invert(1);
-}
-.container-hero {
-    padding-top: 5rem;
 }
 .section-hero {
     position: absolute;
@@ -465,7 +387,9 @@ body{
     left: 15%;
     font-family: 'Playfair Display', Serif ;
 }
-
+.contain-services{
+    padding: 50px 0px;
+}
 .font{
     font-family: 'Playfair Display', Serif;
 }
@@ -473,7 +397,6 @@ body{
     font-size: 1em;
     font-family: 'Barlow', sans-serif;
 }
-
 .btn-warning {
     width: 13rem;
     color: white;
@@ -485,17 +408,14 @@ body{
     height: 17px;
     left: 0px;
     top: 55%;
-
     background: linear-gradient(90deg, #CD9B28 -1.95%, rgba(205, 155, 40, 0) 108.75%);
 }
 .img-service{
     height: 30rem !important;
     border-radius: 2rem;
-
 }
 .app-medium{
     padding-top: 30rem;
-
 }
 .app-carrers{
     padding: 1rem;
@@ -503,9 +423,6 @@ body{
 .img-benefits {
     width: 2rem;
     filter: brightness(0) invert(1);
-
-
-
 }
 .contents-benefits{
     background-image: url("../assets/BACKGROUND-BENEFITS.png");
@@ -519,24 +436,18 @@ body{
     background-color: #c69500;
 }
 .contain-choose{
-
     background-image: url("../assets/ABOUT.jpg");
-
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgb(4,47, 100, 0.4);
     border-radius: 2rem;
-
-
     margin-top: 4rem;
     width: 90%;
     height: 28.3125rem;
-
-
 }
 .text-choose{
     background-color: rgba(255,200,0,0.4);
     border-radius: 2rem;
-    width: 9.125rem ;
+    width: 60% ;
     height: 32.5rem;
     margin-top: -2rem;
 }
@@ -550,8 +461,6 @@ body{
 }
 .carousel-inner {
     border-radius: 3rem;
-
-
 }
 .app-carousel {
     display: inline-block;
@@ -566,20 +475,16 @@ body{
     right: 0;
     left: 0;
     border-radius: 4rem;
-
     background: linear-gradient(90.04deg, #504F4F 0.03%, rgba(103, 103, 103, 0.67) 99.96%);
 }
 .item-carousel{
     padding-top: 4rem;
-
 }
 .text-body{
     padding-top: 4rem;
     color: rgba(0, 0, 0, 0.58);
     margin-left: 2rem;
 }
-
-
 .app-subscribe{
     position: center;
     font-size: 3rem;
@@ -590,9 +495,7 @@ body{
     padding: 3rem;
     text-align: center;
     background: url("../assets/SILUETA2.png") 90% no-repeat, url("../assets/SILUETA.png") 10% no-repeat;
-
 }
-
 .contents-services{
     background-image: url("../assets/BACKGROUND-SERVICES.png");
     background-repeat: no-repeat;
@@ -624,11 +527,8 @@ body{
 }
 .contain-about{
     background-image: linear-gradient(105deg, rgb(68, 68, 68) 25%, rgb(100, 100, 100) 130%);
-
     padding: 5rem;
-
 }
-
 .contain-footer{
     background-image: linear-gradient(105deg, rgb(32,33,39) 25%, rgb(197,186,172) 130%);
     border-top-right-radius: 10% 30%;
@@ -649,10 +549,7 @@ body{
 .img-footer {
     width: 100%;
     height:10rem;
-
-
 }
-
 .app-footer{
     background-color: #c69500;
     border-radius: 7px;
@@ -661,34 +558,20 @@ body{
     padding-right: 0.5rem;
     padding-bottom: 0.2rem;
 }
-
 .contain-footer-last{
     background-color: black;
 }
 .img-cont {
     height: 30.1875rem;
     width: 100%;
-    border-radius: 2rem;
-    box-shadow: -5px 8px 5px 6px #755705;
+    border-radius: 1.5rem;
+    box-shadow: -23px 23px 0px -8px #755705;
 }
 .video-item {
     position: center;
     margin-bottom: 2rem;
 }
-
-/*
-<svg width=”400″ height=”110″ class="rectangle">
-
-        <rect width=”500″ height=”200″  />
-    </svg>
-    <svg  class="rectangle2">
-        <rect/>
-    </svg>
- */
-
-
 .content-service{
-
     padding: 0 4rem
 }
 .number_legal{
@@ -697,9 +580,7 @@ body{
     padding: 0.8rem;
     height: 3rem;
     border-radius: 0.5rem;
-
 }
-
 .background-carousel{
     background: linear-gradient(#38393a, #4e555b, #696e73);
     width: 20%;
@@ -707,16 +588,10 @@ body{
     left: 77%;
     height: 59%;
     border-radius: 0 0 1rem 1rem;
-
 }
-
 .nav-link:hover{
     color: #c69500;
 }
-
-
-
-
 body {
     background-color: #eee;
 }
