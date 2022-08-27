@@ -33,15 +33,13 @@ body{
     font-weight: 600;
     font-size: 20px;
 }
-
 .app-link-footer{
     display: flex;
     flex-direction: row;
 }
 .app-link-footer > span{
-   font-size: 0.9em;
+    font-size: 0.9em;
 }
-
 .video-hero{
     object-fit: cover;
     height: 45rem;
@@ -56,7 +54,7 @@ body{
 }
 .app-about{
     display: block;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     color: #836408;
 }
 .medium-img{
@@ -123,9 +121,7 @@ body{
 .app-medium{
     padding-top: 30rem;
 }
-.app-carrers{
-    padding: 1rem;
-}
+
 .img-benefits {
     width: 2rem;
     filter: brightness(0) invert(1);
@@ -147,9 +143,10 @@ body{
     font-size: 1.2rem;
     padding-top: 0.2rem;
 }
+
 .contain-choose{
     background-image: url("../assets/ABOUT.jpg");
-    background-size: auto auto;
+    background-size: cover;
     box-shadow: inset 0 0 0 1000px rgb(4,47, 100, 0.4);
     border-radius: 2rem;
     margin-top: 4rem;
@@ -298,50 +295,11 @@ body{
     height: 91%;
     border-radius: 0 0 1rem 1rem;
 }
-.app-navbar-info{
-    background-color: #c5ae01;
-    height: 2.5625rem;
-}
-.header-fixed{
-    position: fixed;
-    top:0;
-    width: 100%;
-    z-index: 3;
-    height: 2.5625rem;
-}
-.navbar-main{
-    width: 100%;
-}
 .background-header{
     background-color:   rgba(198,149,0,0.4);
 }
-.app-img{
-    height: 3em;
-}
-.navbar-nav{
-    margin-left:auto;
-}
-.nav-link{
-    color: white;
-    font-weight: 600;
-    font-size: 20px;
-}
-.app-link-footer{
-    display: flex;
-    flex-direction: row;
-}
-.app-link-footer > span{
-   font-size: 0.9em;
-}
-.video-hero{
-    object-fit: cover;
-    height: 45rem;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    filter: brightness(.4);
-}
+
+
 @media (max-width: 600px){
    .background-carousel{
        display: none;
@@ -352,18 +310,6 @@ body{
         border-radius: 2rem;
         width: 100%;
     }
-
-
-}
-
-
-.background-medium{
-    background-color: white;
-}
-.app-about{
-    display: block;
-    font-size: 2.5rem;
-    color: #836408;
 }
 .medium-img{
     border-radius: 10px;
@@ -416,8 +362,9 @@ body{
     padding-top: 30rem;
 }
 .app-carrers{
-    padding: 1rem;
+        padding: 50px 0px;
 }
+
 .img-benefits {
     width: 2rem;
     filter: brightness(0) invert(1);
@@ -433,15 +380,7 @@ body{
     padding: 1rem;
     background-color: #c69500;
 }
-.contain-choose{
-    background-image: url("../assets/ABOUT.jpg");
-    background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgb(4,47, 100, 0.4);
-    border-radius: 2rem;
-    margin-top: 4rem;
-    width: 90%;
-    height: 28.3125rem;
-}
+
 .text-choose{
     background-color: rgba(255,200,0,0.4);
     border-radius: 2rem;
