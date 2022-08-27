@@ -3,6 +3,7 @@
 }
 .app-navbar-info{
     background-color: #c5ae01;
+    height: 2.5625rem;
 }
 
 
@@ -11,6 +12,7 @@
     top:0;
     width: 100%;
     z-index: 3;
+    height: 2.5625rem;
 }
 .navbar-main{
 
@@ -34,7 +36,7 @@
 
 .video-hero{
     object-fit: cover;
-    height: 700px;
+    height: 45rem;
     width: 100%;
 
 
@@ -150,26 +152,30 @@
 .contain-choose{
 
     background-image: url("../assets/ABOUT.jpg");
+
     background-size: cover;
-    padding: 3rem;
     box-shadow: inset 0 0 0 1000px rgb(4,47, 100, 0.4);
     border-radius: 4rem;
     margin-top: 4rem;
+    width: 90%;
+    height: 28.3125rem;
 
 
 }
 .text-choose{
     background-color: rgba(255,200,0,0.4);
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-
     border-radius: 2rem;
+    width: 9.125rem ;
+    height: 32.5rem;
+    margin-top: -2rem;
 }
 .media-body {
     margin-right: 1rem;
     color: rgba(0, 0, 0, 0.58);
+}
+.center-text{
+    display: flex;
+   flex-direction: column;
 }
 .carousel-inner {
     border-radius: 3rem;
@@ -213,12 +219,13 @@
     background: url("../assets/SILUETA2.png") 90% no-repeat, url("../assets/SILUETA.png") 10% no-repeat;
 }
 
-.contain-services{
+.contents-services{
     background-image: url("../assets/BACKGROUND SERVICES.jpg");
     background-repeat: no-repeat;
     background-position: 140%;
     background-size: 150%;
 }
+
 .button-orange{
     display: inline-block;
     color: #755705;
@@ -282,8 +289,8 @@
     background-color: black;
 }
 .img-cont {
-
-    width: 90%;
+    height: 30.1875rem;
+    width: 23.0625rem;
     border-radius: 2rem;
     margin-left: 4rem;
     box-shadow: -5px 8px 5px 6px #755705;
