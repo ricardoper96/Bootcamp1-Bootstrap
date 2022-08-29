@@ -194,6 +194,8 @@ body{
 @media (max-width: 600px){
     .background-carousel{
         display: none;
+        box-shadow: #4e555b;
+
     }
     .text-choose{
         position: absolute;
@@ -346,8 +348,9 @@ body{
 .contents-services{
     background-image: url("../assets/BACKGROUND-SERVICES.png");
     background-repeat: no-repeat;
-    background-position: 120%;
-    background-size: 130%;
+    background-position: -380%;
+    background-size: 90%;
+
 }
 .background-img{
     position: absolute;
