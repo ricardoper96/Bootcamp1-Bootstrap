@@ -346,8 +346,8 @@ body{
 .contents-services{
     background-image: url("../assets/BACKGROUND-SERVICES.png");
     background-repeat: no-repeat;
-    background-position: 140%;
-    background-size: 150%;
+    background-position: 120%;
+    background-size: 130%;
 }
 .background-img{
     position: absolute;
@@ -408,4 +408,31 @@ body{
     position: relative;
     overflow: hidden;
     padding: 3.125rem 0rem;
+    max-width: 100%;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+h2.linea {
+    position: relative;
+    z-index: 1;
+}
+h2.linea:before {
+    border-top: 2px solid rgba(222, 151, 63, 0.53);
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+h2.linea span {
+
+    background: #fff;
+    padding: 0 15px;
 }
