@@ -97,6 +97,18 @@ body{
     filter: sepia(100%) saturate(500%);
     text-decoration: none;
 }
+.img-information{
+    color: white;
+    transition: color .5s, linear .5s;
+    filter:  brightness(0) invert(1);
+    text-decoration: none;
+    width: 15%;
+}
+.img-information:hover{
+    color: #755705;
+    filter: sepia(100%) saturate(500%);
+    text-decoration: none;
+}
 .item {
     color: white;
     transition: filter linear 100ms;
@@ -331,7 +343,7 @@ body{
     background-image: url("../assets/BACKGROUND-BENEFITS.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50%;
+    background-size: 28%;
 }
 .app-subscribe{
     position: center;
@@ -388,6 +400,10 @@ body{
     color: white;
     font-size: 1.2rem;
     padding: 0.8rem 0;
+}
+.text-information{
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
 }
 .img-cont {
     height: 30.1875rem;
