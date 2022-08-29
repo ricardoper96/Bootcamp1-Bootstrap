@@ -33,12 +33,19 @@ body{
     font-weight: 600;
     font-size: 20px;
 }
+.nav-link:hover{
+    color: #c69500;
+}
 .app-link-footer{
     display: flex;
     flex-direction: row;
 }
 .app-link-footer > span{
     font-size: 0.9em;
+}
+.app-img > header{
+    background-color: #c69500;
+
 }
 .video-hero{
     object-fit: cover;
@@ -51,6 +58,12 @@ body{
 }
 .background-medium{
     background-color: white;
+}
+.item-owl{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    justify-content: center;
 }
 .app-about{
     display: block;
@@ -66,6 +79,9 @@ body{
 .item:hover{
     filter: sepia(0.9);
 }
+.item:hover{
+    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+}
 .img-header{
     filter: brightness(0) invert(1);
 }
@@ -80,8 +96,9 @@ body{
 }
 .section-hero {
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 35%;
+    left: 15%;
+    font-family: 'Playfair Display', Serif ;
 }
 .app-font {
     width: 34.8125rem;
@@ -121,7 +138,6 @@ body{
 .app-medium{
     padding-top: 30rem;
 }
-
 .img-benefits {
     width: 2rem;
     filter: brightness(0) invert(1);
@@ -147,7 +163,6 @@ body{
     font-size: 1.2rem;
     padding-top: 0.2rem;
 }
-
 .contain-choose{
     background-image: url("../assets/ABOUT.jpg");
     background-size: cover;
@@ -160,17 +175,29 @@ body{
 .text-choose{
     background-color: rgba(255,200,0,0.4);
     border-radius: 2rem;
-    width: 9.125rem ;
+    width: 60% ;
     height: 32.5rem;
     margin-top: -2rem;
 }
+@media (max-width: 600px){
+    .background-carousel{
+        display: none;
+    }
+    .text-choose{
+        position: absolute;
+        background-color: rgba(173, 156, 95, 0.4);
+        border-radius: 2rem;
+        width: 100%;
+    }
+}
+
 .media-body {
     margin-right: 1rem;
     color: rgba(0, 0, 0, 0.58);
 }
 .center-text{
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
 }
 .carousel-inner {
     border-radius: 3rem;
@@ -198,36 +225,12 @@ body{
     color: rgba(0, 0, 0, 0.58);
     margin-left: 2rem;
 }
-.app-subscribe{
-    position: center;
-    font-size: 3rem;
-    padding: 2rem;
-    color: #755705;
-}
-.contain-subscribe{
-    padding: 3rem;
-    text-align: center;
-    background: url("../assets/SILUETA2.png") 90% no-repeat, url("../assets/SILUETA.png") 10% no-repeat;
-}
-.contents-services{
-    background-image: url("../assets/BACKGROUND SERVICES.jpg");
-    background-repeat: no-repeat;
-    background-position: 140%;
-    background-size: 150%;
-}
-.background-img{
-    position: absolute;
-    opacity: 0.2;
-    left: -13%;
-    width: 60%;
-}
 .button-orange{
     color: #755705;
     background-color: #c69500;
     font-size: 1.8rem;
     padding-top: 0rem;
     right: 30%;
-
 }
 .input-subscribe{
     display:inline-block;
@@ -246,16 +249,15 @@ body{
     mso-border-shadow: yes;
     border-color: #c76102 ;
 }
-.contain-about{
-    background-image: linear-gradient(105deg, rgb(68, 68, 68) 25%, rgb(100, 100, 100) 130%);
-    padding: 5rem;
-}
 .contain-footer{
     background-image: linear-gradient(105deg, rgb(32,33,39) 25%, rgb(197,186,172) 130%);
     border-top-right-radius: 10% 30%;
     border-top-left-radius: 10% 30%;
     margin-top: 0.5rem;
     padding: 4rem;
+}
+.contain-footer-last{
+    background-color: black;
 }
 .item-footer{
     color: #c5ae01;
@@ -265,10 +267,6 @@ body{
 .title-footer{
     color: rgb(242,197,82);
 }
-.img-footer {
-    width: 100%;
-    height: 10rem;
-}
 .app-footer{
     background-color: #c69500;
     border-radius: 7px;
@@ -276,9 +274,6 @@ body{
     padding-left:0.5rem;
     padding-right: 0.5rem;
     padding-bottom: 0.2rem;
-}
-.contain-footer-last{
-    background-color: black;
 }
 .video-item {
     position: center;
@@ -291,6 +286,7 @@ body{
     background-color: #755705;
     color:white;
     padding: 0.8rem;
+    height: 3rem;
     border-radius: 0.5rem;
 }
 .background-carousel{
@@ -298,44 +294,14 @@ body{
     width: 20%;
     position: absolute;
     left: 77%;
-    height: 91%;
+    height: 59%;
     border-radius: 0 0 1rem 1rem;
 }
 .background-header{
     background-color:   rgba(198,149,0,0.4);
 }
-
-
-@media (max-width: 600px){
-   .background-carousel{
-       display: none;
-   }
-    .text-choose{
-        position: absolute;
-        background-color: rgba(173, 156, 95, 0.4);
-        border-radius: 2rem;
-        width: 100%;
-    }
-}
-.medium-img{
-    border-radius: 10px;
-    border: 2px solid #8b8b8b;
-    height: 20rem;
-    width: 100%;
-}
-.item:hover{
-    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
-}
-.item {
-    color: white;
-    transition: filter linear 100ms;
-    filter:  brightness(0) invert(1);
-}
-.section-hero {
-    position: absolute;
-    top: 35%;
-    left: 15%;
-    font-family: 'Playfair Display', Serif ;
+.contain-services{
+    padding: 50px 0px;
 }
 
 .font{
@@ -345,82 +311,14 @@ body{
     font-size: 1em;
     font-family: 'Barlow', sans-serif;
 }
-
-.rectangle {
-    position: absolute;
-    width: 640px;
-    height: 17px;
-    left: 0px;
-    top: 55%;
-    background: linear-gradient(90deg, #CD9B28 -1.95%, rgba(205, 155, 40, 0) 108.75%);
-}
-.img-service{
-    height: 30rem !important;
-    border-radius: 2rem;
-}
-.app-medium{
-    padding-top: 30rem;
-}
 .app-carrers{
         padding: 50px 0px;
-}
-
-.img-benefits {
-    width: 2rem;
-    filter: brightness(0) invert(1);
 }
 .contents-benefits{
     background-image: url("../assets/BACKGROUND-BENEFITS.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
-}
-.container-benefits{
-    border-radius: 0.6rem;
-    padding: 1rem;
-    background-color: #c69500;
-}
-
-.text-choose{
-    background-color: rgba(255,200,0,0.4);
-    border-radius: 2rem;
-    width: 60% ;
-    height: 32.5rem;
-    margin-top: -2rem;
-}
-.media-body {
-    margin-right: 1rem;
-    color: rgba(0, 0, 0, 0.58);
-}
-.center-text{
-    display: flex;
-   flex-direction: column;
-}
-.carousel-inner {
-    border-radius: 3rem;
-}
-.app-carousel {
-    display: inline-block;
-    color: #755705;
-    padding-left: 8rem;
-    padding-top: 5rem;
-}
-.fond-carousel {
-    position: absolute;
-    width: 200%;
-    height: 70%;
-    right: 0;
-    left: 0;
-    border-radius: 4rem;
-    background: linear-gradient(90.04deg, #504F4F 0.03%, rgba(103, 103, 103, 0.67) 99.96%);
-}
-.item-carousel{
-    padding-top: 4rem;
-}
-.text-body{
-    padding-top: 4rem;
-    color: rgba(0, 0, 0, 0.58);
-    margin-left: 2rem;
 }
 .app-subscribe{
     position: center;
@@ -445,33 +343,9 @@ body{
     left: -13%;
     width: 60%;
 }
-.input-subscribe{
-    display:inline-block;
-    width:35%;
-    padding:.375rem .75rem;
-    font-size:1rem;
-    line-height:1.5;
-    color:#495057;
-    background-color:#fff;
-    background-clip:padding-box;
-    border:1px solid #ced4da;
-    border-radius:.25rem;
-    transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-.container > img {
-    mso-border-shadow: yes;
-    border-color: #c76102 ;
-}
 .contain-about{
     background-image: linear-gradient(105deg, rgb(68, 68, 68) 25%, rgb(100, 100, 100) 130%);
     padding: 5rem;
-}
-.contain-footer{
-    background-image: linear-gradient(105deg, rgb(32,33,39) 25%, rgb(197,186,172) 130%);
-    border-top-right-radius: 10% 30%;
-    border-top-left-radius: 10% 30%;
-    margin-top: 0.5rem;
-    padding: 4rem;
 }
 .icon-footer {
     border-radius: 1rem;
@@ -480,57 +354,15 @@ body{
     flex-direction: row;
     align-items: center;
 }
-.title-footer{
-    color: rgb(242,197,82);
-}
 .img-footer {
     width: 100%;
     height:10rem;
-}
-.app-footer{
-    background-color: #c69500;
-    border-radius: 7px;
-    margin: 0 0.4rem;
-    padding-left:0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.2rem;
-}
-.contain-footer-last{
-    background-color: black;
 }
 .img-cont {
     height: 30.1875rem;
     width: 100%;
     border-radius: 1.5rem;
     box-shadow: -23px 23px 0px -8px #755705;
-}
-.video-item {
-    position: center;
-    margin-bottom: 2rem;
-}
-.content-service{
-    padding: 0 4rem
-}
-.number_legal{
-    background-color: #755705;
-    color:white;
-    padding: 0.8rem;
-    height: 3rem;
-    border-radius: 0.5rem;
-}
-.background-carousel{
-    background: linear-gradient(#38393a, #4e555b, #696e73);
-    width: 20%;
-    position: absolute;
-    left: 77%;
-    height: 59%;
-    border-radius: 0 0 1rem 1rem;
-}
-.nav-link:hover{
-    color: #c69500;
-}
-body {
-    background-color: #eee;
 }
 .btn {
     border: 0;
