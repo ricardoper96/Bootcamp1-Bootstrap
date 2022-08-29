@@ -191,14 +191,14 @@ body{
     padding-top: 0.2rem;
 }
 .contain-choose{
-    background-image: url("../assets/ABOUT.jpg");
+    background-image: url("../assets/ABOUT2.jpg");
     background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgb(4,47, 100, 0.4);
     border-radius: 2rem;
     width: 90%;
     height: 28.3125rem;
     max-width: 100%;
 }
+
 .text-choose{
     background-color: rgba(255,200,0,0.4);
     border-radius: 2rem;
@@ -483,10 +483,6 @@ h2.linea span {
     padding: 0 15px;
 }
 
-
-
-
-
 .parent-box{
     background-color: #ddd;
     display: flex;
@@ -529,3 +525,4 @@ h2.linea span {
     border-radius: 50%;
     background-color: green;
 }
+
