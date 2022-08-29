@@ -90,10 +90,12 @@ body{
     color: white;
     transition: color .5s, linear .5s;
     filter:  brightness(0) invert(1);
+    text-decoration: none;
 }
 .phone-text:hover{
-    color: black;
-    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+    color: #755705;
+    filter: sepia(100%) saturate(500%);
+    text-decoration: none;
 }
 .item {
     color: white;
