@@ -69,7 +69,7 @@ body{
     width: 50%;
 
     border-radius: 20px;
-    justify-content: center;
+    margin-left: 12rem;
 }
 .item-owl{
     justify-content: right;
@@ -307,7 +307,19 @@ body{
     margin-bottom: 2rem;
 }
 .content-service{
-    padding: 0 4rem
+    margin-left: 10rem;
+    padding: 4rem;
+}
+.text-services{
+    padding: 4rem 0;
+    font-size: 1.2rem;
+    font-family: 'Barlow', sans-serif;
+}
+.btn-services{
+    width: 55%;
+    font-size: 1.3rem;
+    padding: 0.2rem;
+
 }
 .number_legal{
     background-color: #755705;
@@ -358,8 +370,8 @@ body{
 .contents-services{
     background-image: url("../assets/BACKGROUND-SERVICES.png");
     background-repeat: no-repeat;
-    background-position: -380%;
-    background-size: 90%;
+    background-position: -35%;
+    background-size: 50%;
 
 }
 .background-img{
@@ -469,4 +481,50 @@ h2.linea span {
 
     background: #fff;
     padding: 0 15px;
+}
+
+
+
+
+
+.parent-box{
+    background-color: #ddd;
+    display: flex;
+}
+.box{
+    height: 300px;
+    width: 40%;
+    margin: 10px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+/* #WEB SURAJ# */
+
+.owl-carousel .owl-nav button.owl-next{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
 }
