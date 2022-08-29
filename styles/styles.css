@@ -44,10 +44,10 @@ body{
     object-fit: cover;
     height: 45rem;
     width: 100%;
-    position: absolute;
     top: 0;
     left: 0;
     filter: brightness(.4);
+
 }
 .background-medium{
     background-color: white;
@@ -74,8 +74,9 @@ body{
     transition: filter linear 100ms;
     filter:  brightness(0) invert(1);
 }
-.container-hero {
-    padding: 50px 0px;
+.contain-hero {
+    position: relative;
+
 }
 .section-hero {
     position: absolute;
@@ -98,13 +99,13 @@ body{
     left: 42%;
     border: 2px solid #c76102;
     border-radius: 10px;
-    padding-top: 18rem;
-    padding-left: 17.5rem;
+    bottom:  1rem;
 }
 .btn-warning {
     width: 13rem;
     color: white;
     border-radius: 10px;
+
 }
 .rectangle {
     position: absolute;
@@ -333,9 +334,7 @@ body{
     left: 15%;
     font-family: 'Playfair Display', Serif ;
 }
-.contain-services{
-    padding: 50px 0px;
-}
+
 .font{
     font-family: 'Playfair Display', Serif;
 }
@@ -343,11 +342,7 @@ body{
     font-size: 1em;
     font-family: 'Barlow', sans-serif;
 }
-.btn-warning {
-    width: 13rem;
-    color: white;
-    border-radius: 10px;
-}
+
 .rectangle {
     position: absolute;
     width: 640px;
@@ -547,9 +542,10 @@ body {
 .btn-3d {
     position: relative;
     top: -6px;
-    border: 0;
+    border: 0px;
     transition: all 40ms linear;
     margin: 10px 4px;
+
 }
 .btn-3d:active:focus,
 .btn-3d:focus:hover,
@@ -664,4 +660,9 @@ body {
 
     font-size: 1.2rem;
 
+}
+.about {
+    position: relative;
+    overflow: hidden;
+    padding: 3.125rem 0rem;
 }
