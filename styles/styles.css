@@ -21,9 +21,14 @@ body{
 }
 .navbar-main{
     width: 100%;
+    background: transparent;
 }
 .app-img{
     height: 3em;
+}
+.app-img > header{
+
+    background-color: #c69500;
 }
 .navbar-nav{
     margin-left:auto;
@@ -36,6 +41,7 @@ body{
 .nav-link:hover{
     color: #c69500;
 }
+
 .app-link-footer{
     display: flex;
     flex-direction: row;
@@ -43,10 +49,7 @@ body{
 .app-link-footer > span{
     font-size: 0.9em;
 }
-.app-img > header{
-    background-color: #c69500;
 
-}
 .video-hero{
     object-fit: cover;
     height: 45rem;
@@ -84,6 +87,15 @@ body{
 }
 .img-header{
     filter: brightness(0) invert(1);
+}
+.phone-text{
+    color: white;
+    transition: color .5s, linear .5s;
+    filter:  brightness(0) invert(1);
+}
+.phone-text:hover{
+    color: black;
+    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
 .item {
     color: white;
