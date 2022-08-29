@@ -60,11 +60,16 @@ body{
 .background-medium{
     background-color: white;
 }
-.item-owl{
+.img-service{
+    height: 100%;
     display: flex;
     width: 50%;
+
     border-radius: 20px;
     justify-content: center;
+}
+.item-owl{
+    justify-content: right;
 }
 .app-about{
     display: block;
@@ -77,10 +82,8 @@ body{
     height: 20rem;
     width: 100%;
 }
-.item:hover{
-    filter: sepia(0.9);
-}
-.item:hover{
+
+.item-footer:hover{
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
 .img-header{
@@ -109,7 +112,7 @@ body{
     filter: sepia(100%) saturate(500%);
     text-decoration: none;
 }
-.item {
+.item-footer {
     color: white;
     transition: filter linear 100ms;
     filter:  brightness(0) invert(1);
@@ -155,10 +158,7 @@ body{
     top: 55%;
     background: linear-gradient(90deg, #CD9B28 -1.95%, rgba(205, 155, 40, 0) 108.75%);
 }
-.img-service{
-    height: 30rem !important;
-    border-radius: 2rem;
-}
+
 .app-medium{
     padding-top: 30rem;
 }
@@ -225,9 +225,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-.carousel-inner {
-    border-radius: 3rem;
-}
+
 .app-carousel {
     display: inline-block;
     color: #755705;
