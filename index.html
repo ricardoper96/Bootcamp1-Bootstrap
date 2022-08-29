@@ -305,7 +305,7 @@
 </section>
 
 <section>
-    <div class="container contain-submit about">
+    <div class="container contain-submit ">
         <div class="row">
             <div class="col-12">
                 <h2 class="app-subscribe text-center font linea">Subscribe</h2>
@@ -452,16 +452,24 @@
     ({
         interval: 2000,
     })
-    $(function (){
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 100) {
-                $('#img-header-id').removeClass("img-header");
-                $(".navbar-main").removeClass("background-header");
-            } else {
-                $("#img-header-id").addClass("img-header");
-                $(".navbar-main").addClass("background-header");
-            }
-        });
+
+</script>
+<script>
+    $(window).on("scroll", function () {
+
+        if ($(window).scrollTop() > $("header").offset().top - 50) {
+            $("#navbar-main").addClass("background-header");
+            $('#img-header-id').addClass ('img-header');
+        }
+
+        if ($(window).scrollTop() == 0){
+
+            $("#navbar-main").removeClass("background-header");
+            $('#img-header-id').removeClass('img-header');
+
+        }
+
+
     });
 </script>
 

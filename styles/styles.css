@@ -22,7 +22,9 @@ body{
 .navbar-main{
     width: 100%;
     background: transparent;
-
+}
+.background-header{
+    background-color:   rgba(198,149,0,0.4);
 }
 .app-img{
     height: 3em;
@@ -324,9 +326,7 @@ body{
     height: 59%;
     border-radius: 0 0 1rem 1rem;
 }
-.background-header{
-    background-color:   rgba(198,149,0,0.4);
-}
+
 .contain-services{
     padding: 50px 0px;
     max-width: 100%;
@@ -353,7 +353,7 @@ body{
     color: #755705;
 }
 .contain-subscribe{
-    padding: 3rem;
+    padding: 8rem;
     text-align: center;
     background: url("../assets/SILUETA2.png") 90% no-repeat, url("../assets/SILUETA.png") 10% no-repeat;
 }
