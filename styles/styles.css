@@ -297,17 +297,17 @@ body{
 
 }
 .input-subscribe{
-    display:inline-block;
-    width:35%;
-    padding:.375rem .75rem;
-    font-size:1rem;
-    line-height:1.5;
-    color:#495057;
-    background-color:#fff;
-    background-clip:padding-box;
-    border:1px solid #ced4da;
-    border-radius:.25rem;
-    transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 22.5rem;
+    height: 2.875rem;
+    left: 17rem;
+
+    background: #F7F7F7;
+    border: 0.5px solid #CAC8C8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
 .container > img {
     mso-border-shadow: yes;
@@ -465,7 +465,7 @@ body{
 }
 .btn {
     border: 0;
-    margin: 10px 4px;
+    margin: 10px 2px;
 }
 
 
@@ -484,8 +484,8 @@ body{
 .button-subscribe{
     width: 20%;
     padding-top: 0.2rem;
-
     font-size: 1.2rem;
+    margin-left: 26rem;
 
 }
 .about {
