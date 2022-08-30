@@ -353,9 +353,9 @@ body{
     font-family: 'Barlow', sans-serif;
 }
 .btn-services{
-    width: 55%;
+    width: 75%;
     font-size: 1.3rem;
-    padding: 0.2rem;
+    padding: 0.3rem 0;
 
 }
 .number_legal{
@@ -502,7 +502,7 @@ body{
 .box{
     height: 300px;
     width: 40%;
-    background-color: #755705;
+    background-image: url("../assets/BACKGROUND-SERVICES.png");
     margin: 10px;
 }
 .owl-carousel .owl-nav button.owl-prev{
