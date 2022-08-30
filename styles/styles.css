@@ -63,11 +63,16 @@ body{
 .background-medium{
     background-color: white;
 }
-.item-owl{
+.img-service{
+    height: 100%;
     display: flex;
     width: 50%;
+
     border-radius: 20px;
-    justify-content: center;
+    margin-left: 12rem;
+}
+.item-owl{
+    justify-content: right;
 }
 .app-about{
     display: block;
@@ -80,10 +85,8 @@ body{
     height: 20rem;
     width: 100%;
 }
-.item:hover{
-    filter: sepia(0.9);
-}
-.item:hover{
+
+.item-footer:hover{
     filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
 .img-header{
@@ -112,7 +115,7 @@ body{
     filter: sepia(100%) saturate(500%);
     text-decoration: none;
 }
-.item {
+.item-footer {
     color: white;
     transition: filter linear 100ms;
     filter:  brightness(0) invert(1);
@@ -158,10 +161,7 @@ body{
     top: 55%;
     background: linear-gradient(90deg, #CD9B28 -1.95%, rgba(205, 155, 40, 0) 108.75%);
 }
-.img-service{
-    height: 30rem !important;
-    border-radius: 2rem;
-}
+
 .app-medium{
     padding-top: 30rem;
 }
@@ -228,9 +228,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-.carousel-inner {
-    border-radius: 3rem;
-}
+
 .app-carousel {
     display: inline-block;
     color: #755705;
@@ -309,7 +307,19 @@ body{
     margin-bottom: 2rem;
 }
 .content-service{
-    padding: 0 4rem
+    margin-left: 10rem;
+    padding: 4rem;
+}
+.text-services{
+    padding: 4rem 0;
+    font-size: 1.2rem;
+    font-family: 'Barlow', sans-serif;
+}
+.btn-services{
+    width: 55%;
+    font-size: 1.3rem;
+    padding: 0.2rem;
+
 }
 .number_legal{
     background-color: #755705;
@@ -360,8 +370,8 @@ body{
 .contents-services{
     background-image: url("../assets/BACKGROUND-SERVICES.png");
     background-repeat: no-repeat;
-    background-position: -380%;
-    background-size: 90%;
+    background-position: -35%;
+    background-size: 50%;
 
 }
 .background-img{
@@ -471,5 +481,47 @@ h2.linea span {
 
     background: #fff;
     padding: 0 15px;
+}
+
+.parent-box{
+    background-color: #ddd;
+    display: flex;
+}
+.box{
+    height: 300px;
+    width: 40%;
+    margin: 10px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+/* #WEB SURAJ# */
+
+.owl-carousel .owl-nav button.owl-next{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
 }
 

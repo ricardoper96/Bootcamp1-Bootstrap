@@ -1,8 +1,9 @@
 //default settings:
 
 autoplay:false
-autoplayTimeout:5000
+autoplayTimeout:3000
 autoplayHoverPause:false
+
 
 $(document).ready(function(){
     var owl = $(".owl-carousel");
@@ -11,6 +12,23 @@ $(document).ready(function(){
         autoplay: true,
         autoPlaySpeed: 5000,
         autoPlayTimeout: 5000,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        video:true,
+        responsive: {
+            0:{
+                items: 1,
+                nav: true
+            },
+            600:{
+                items:1,
+                nav: false
+            },
+            1000:{
+                items:1,
+                nav:true,
+                loop: false
+            }
+        }
     });
 });
