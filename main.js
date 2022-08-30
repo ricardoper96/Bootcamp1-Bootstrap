@@ -9,6 +9,9 @@ $(document).ready(function(){
     var owl = $(".owl-carousel");
     owl.owlCarousel({
         items: 1,
+        merge:true,
+        loop:true,
+        margin:10,
         autoplay: true,
         autoPlaySpeed: 5000,
         autoPlayTimeout: 5000,

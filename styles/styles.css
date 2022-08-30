@@ -528,7 +528,7 @@ h2.linea span {
 .box{
     height: 300px;
     width: 40%;
-    background-color: #755705;
+    background-image: url("../assets/BACKGROUND-SERVICES.png");
     margin: 10px;
 }
 .owl-carousel .owl-nav button.owl-prev{
