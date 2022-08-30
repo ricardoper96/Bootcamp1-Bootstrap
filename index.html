@@ -127,30 +127,58 @@
 
 </header>
 
-<section>
-    <div class="container-fluid contain-hero">
-        <div class="row">
-            <video playsinline="playsinline" class="video-hero" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="assets/videohero.mp4" type="video/mp4">
-            </video>
+<section class="hero-section-header " >
 
-            <svg width=”400″ height=”110″ class="rectangle">
-                <rect width=”500″ height=”200″  />
-            </svg>
-            <div class="container container-hero">
-                <div class="row content-hero">
-                    <div class="col-md-8  section-hero ">
-                        <h1 class="text-white app-main h1">Customer Focused.</h1>
-                        <h3 class="text-white app-main app-font  h2 ">Results Driven.</h3>
-                        <div class="aside-hero">
-                            <button type="button" class="btn btn-warning btn-3d button-orange font">Get Now</button>
-                        </div>
+    <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+    <div class="overlay"></div>
+
+    <!-- The HTML5 video element that will create the background video on the header -->
+    <video playsinline="playsinline" class="hero-video-content " autoplay="autoplay" muted="muted" loop="loop">
+        <source src="assets/videohero.mp4" type="video/mp4">
+    </video>
+
+    <!-- The header content -->
+    <div class="container-fluid h-100 content-hero">
+        <div class="d-flex h-100 text-center  align-items-center">
+            <div class="w-100 text-white">
+                <div class="row  my-5">
+                    <div class="col-md-8">
+                        <h1 class="text-white app-main font h1">
+                            <span class="hero-space">Customer Focused.</span>
+                            <br>
+                            <span class="">Results Driven.</span>
+                        </h1>
+
+
+
+                    </div>
+
+                    <svg width=”400″ height=”110″ class="rectangle">
+
+                        <rect width=”500″ height=”200″  />
+                    </svg>
+
+
+
+
+
+
+                    <div class="col-md-2 my-5">
+
                     </div>
                 </div>
+                <div class="content-button ">
+                    <button type="button" class=" ml-5 btn button-orange text-white font ">Get Now</button>
+
+                </div>
+
+
+
+
             </div>
         </div>
-
     </div>
+
 </section>
 
 <section>
