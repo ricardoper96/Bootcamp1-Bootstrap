@@ -353,9 +353,9 @@ body{
     font-family: 'Barlow', sans-serif;
 }
 .btn-services{
-    width: 55%;
+    width: 75%;
     font-size: 1.3rem;
-    padding: 0.2rem;
+    padding: 0.3rem 0;
 
 }
 .number_legal{
